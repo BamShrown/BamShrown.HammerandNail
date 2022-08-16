@@ -251,18 +251,30 @@ margin-bottom: 2%;
         font-size: 14vw;
     }
         #kitchenPara {
-        font-size: 27px;
+        font-size: 25px;
     }
     
         #bathroomPara {
-        font-size: 27px;
+        font-size: 25px;
     }
         #flooringPara {
-        font-size: 27px;
+        font-size: 25px;
     }
     
         #flatpackPara {
-        font-size: 27px;
+        font-size: 25px;
+    }
+        .kitchen:hover {
+         transform: scale(1.1);
+    }
+        .bathroom:hover {
+         transform: scale(1.1);
+    }
+        .flooring:hover {
+         transform: scale(1.1);
+    }
+        .flatpack:hover {
+         transform: scale(1.1);
     }
 
 }
