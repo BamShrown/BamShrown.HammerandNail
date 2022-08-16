@@ -250,6 +250,20 @@ margin-bottom: 2%;
     .jobsection h3 {
         font-size: 14vw;
     }
+        #kitchenPara {
+        font-size: 27px;
+    }
+    
+        #bathroomPara {
+        font-size: 27px;
+    }
+        #flooringPara {
+        font-size: 27px;
+    }
+    
+        #flatpackPara {
+        font-size: 27px;
+    }
 
 }
 
@@ -273,7 +287,7 @@ margin-bottom: 2%;
 
 
 .kitchen:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
     transition: all 2s;
@@ -315,7 +329,7 @@ margin-bottom: 2%;
 }
 
 .bathroom:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
     transition: all 2s;
@@ -350,7 +364,7 @@ margin-bottom: 2%;
 }
 
 .flooring:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
     transition: all 2s;
@@ -390,7 +404,7 @@ margin-bottom: 2%;
 }
 
 .flatpack:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
     transition: all 2s;
