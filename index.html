@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <title>Hammer & Nail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" href="../Hammer&Nail/resources/pictures/Hammericon2.png" type="image/icon type">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<script src="../Hammer&Nail/resources/js/index.js"></script>
+</script>
+</head>
+<body>
+
+<!-- NAVIGATION BAR -->
+
+    <nav>
+        <ul class="nav" id="navbar">
+            <li class="navlist"><a href="#jobarea">SERVICES</a></li>
+            <li class="navlist"><a href="#contactarea">CONTACT</a></li>
+            <li class="navlist"><a href="#areaspot">AREAS</a></li>
+        </ul>
+    
+    </nav>
+
+<!-- MAIN BANNER SECTION -->
+
+<div class="bannerimg">
+    <h1>HAMMER & NAIL</h1>
+</div>
+
+<!-- BIO SECTION -->
+
+<div class="biodiv">
+
+    <p>I've been a handyman for 12 years, no job is too big or too small. From kitchens to bathrooms, bookshelves to flooring. I'm a professional joiner with carpentry skills and a background in plumbing.</p>
+</div>
+
+<!-- JOB SECTION -->
+
+<main class="jobsection" id="jobarea">
+    <h3>SERVICES</h3>
+    <div class="jobimages">
+    <div class="kitchen" id="kitchenDiv" onmouseover="kitchenEnlarge()" onmouseout="kitchenShrink()">
+        <h4 id="kitchenTitle">KITCHENS</h4>
+        <p id="kitchenPara">From kitchen repairs to smelly drain problems, I can unblock drains, help install or fix cabinets, install or fix kitchen drawers, tighten drawers if loose, help with insufficient lighting or fit new appliances / electrics.<br><br> I can cover it all!</p>
+    </div>
+    <div class="bathroom" id="bathroomDiv" onmouseover="bathroomEnlarge()" onmouseout="bathroomShrink()">
+        <h4 id="bathroomTitle">BATHROOMS</h4>
+        <p id="bathroomPara">Bathroom repairs, poor ventilation systems, mold and mildew, or broken ventilation system, leaky shower head needs replacing, leaky faucet, the dripping water problem, shower drain has issue or clogged drains, I've got you!</p>
+    </div>
+    <div class="flooring" id="flooringDiv" onmouseover="flooringEnlarge()" onmouseout="flooringShrink()">
+        <h4 id="flooringTitle">FLOORING</h4>
+        <p id="flooringPara">With over 8 years of experience and hundreds of happy customers, just let me know what kind of flooring you're after and I'll make it happen! Wood, laminate, tiled or carpets.<br><br>Just ask and I'll make it work!</p>
+    </div>
+    <div class="flatpack" id="flatpackDiv" onmouseover="flatpackEnlarge()" onmouseout="flatpackShrink()">
+        <h4 id="flatpackTitle">FLATPACK</h4>
+        <p id="flatpackPara">We all know how frustrating flatpack furniture can become! Wouldn't it be easier to just have someone pop round and sort it all out for you?<br><br> Well look no further! No matter the item, I'll pop round and set it up!</p>
+    </div>
+    </div>
+</main>
+
+<!-- CONTACT SECTION -->
+
+<div class="contactsection" id="contactarea">
+    <h3>CONTACT</h3>
+    <div class ="formsection" >
+        <div>
+        <form action="../Hammer&Nail/resources/php/index.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="John.Doe@gmail.com" required>
+        </div>
+        <div class="formsection2">
+            <label for="service">Type of service:</label><br>
+            <select id="service" name="service" required>
+                <option value="kitchen">Kitchen</option>
+                <option value="bathroom">Bathroom</option>
+                <option value="flooring">Flooring</option>
+                <option value="flatpack">Flatpack</option>
+            </select><br>
+            <label for="extrainfo">Additional Info:</label><br>
+            <textarea id="extrainfo" name="extrainfo" rows="5" cols="30"></textarea>
+        </div>
+        <div class="formsection3">
+            <input class="submitbutton" type="submit" value="SEND">
+            
+          </form>
+        </div>
+
+    </div>
+    
+
+</div>
+
+<!-- AREAS SECTION -->
+
+<div class ="areasection" id="areaspot">
+    <h3>AREAS</h3>
+    <div class="arealist">
+        <p>ASHINGTON</p>
+        <p>BEDLINGTON</p>
+        <p>CORBRIDGE</p>
+        <p>CRAMLINGTON</p>
+        <p>CULLERCOATS</p>
+        <p>DARRAS HALL</p>
+        <p>DINNINGTON</p>
+        <p>FAWDON</p>
+        <p>FENHAM</p>
+        <p>GATESHEAD</p>
+        <p>GOSFORTH</p>
+        <p>GREAT PARK</p>
+        <p>HAZELRIGG</p>
+        <p>HEATON</p>
+        <p>JESMOND</p>
+        <p>KILLINGWORTH</p>
+        <p>MORPETH</p>
+        <p>NEWCASTLE</p>
+        <p>NORTH SHIELDS</p>
+        <p>PONTELAND</p>
+        <p>RYTON</p>
+        <p>SEATON SLUICE</p>
+        <p>SHIREMOOR</p>
+        <p>THROCKLEY</p>
+        <p>TYNEMOUTH</p>
+        <p>WALBOTTLE</p>
+        <p>WESTERHOPE</p>
+        <p>WHICKHAM</p>
+        <p>WHITLEY BAY</p>
+        <p>WIDEOPEN</p>
+
+    </div>
+
+
+</div>
+
+</body>
+</html>
+
+
